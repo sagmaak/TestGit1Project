@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Maruthi.Srikanth.Akella@ibm.com</value>
-    <value name="createdDate">1770708321919</value>
-    <value name="lastModifiedDate">1770708321919</value>
+    <value name="lastModifiedBy">Maruthi.Srikanth.Akella@ibm.com</value>
+    <value name="lastModifiedDate">1770709074983</value>
     <value name="displayName">DAF1</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -60,10 +59,15 @@
           <null name="services"/>
         </record>
         <record name="serviceName" javaclass="com.wm.util.Values">
-          <value name="displayName">getCurrentDateString</value>
-          <value name="serviceName">pub.date:getCurrentDateString</value>
           <value name="transformerSupport">true</value>
+          <value name="displayName">currentNanoTime</value>
+          <value name="serviceName">pub.date:currentNanoTime</value>
+          <Boolean name="enabled">true</Boolean>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
