@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestGit1Project
+  gitServerName: maakgit
+  gitUrl: https://github.com/sagmaak
+  gitUsername: sagmaak
+  gitBranch: main
